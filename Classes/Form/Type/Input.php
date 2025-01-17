@@ -17,5 +17,9 @@ class Input extends GenericFormElement {
         );
         return $html;
     }
+
+    public function getName(): string {
+        return $this->name;
+    }
 }
 ?>

@@ -8,7 +8,7 @@ final class Checkbox extends Input {
 
     public function render() {
         return sprintf(
-            '<input type="%s" %s value="%s" name="%s[]" %s />',
+            '<input type="%s" %s value="%s" name="form[%s][]" %s />',
             $this->type,
             $this->isRequired() ? 'required="required"' : '',
             $this->getValue(),

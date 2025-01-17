@@ -52,19 +52,19 @@
         private function displayCheckbox()
         {
             echo $this->text . "<br>";
-        
+            
             $i = 0;
             foreach ($this->choices as $choice) {
                 $i++;
-                
-                $checkbox = new Checkbox($this->name); // Utilisation de [] pour que ce soit un tableau
         
+                $checkbox = new Checkbox($this->name);
                 $checkbox->setValue($choice['value']);
                 
                 echo $checkbox->render();
                 echo "<label for='{$this->name}-{$i}'>{$choice['text']}</label><br>";
             }
         }
+        
         
 
         public function checkAnswer($userAnswer)
@@ -76,7 +76,7 @@
             if ($this->type == 'checkbox') {
                 if (!is_array($userAnswer)) {
                     $userAnswer = [];
-                }
+                } var_dump($this->answer);
         
                 $diff1 = array_diff($this->answer, $userAnswer);
                 $diff2 = array_diff($userAnswer, $this->answer);

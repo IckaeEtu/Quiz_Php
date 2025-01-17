@@ -49,14 +49,23 @@ class QuizProvider {
                 }
             }
 
+            if ($q['Type'] === 'checkbox') {
+                $reponses_correctes = explode(";", $q['Reponse_Correcte']); 
+            }
+            if (isset($reponses_correctes)) {
+                $correct = $reponses_correctes;
+            } else {
+                $correct = $q['Reponse_Correcte'];
+            }
+
             // Créer une instance de la classe Question
             $questions[] = new Question(
                 $q['Nom'],
                 $q['Type'],
                 $q['Nom'],
-                $q['Reponse_Correcte'],
+                $correct,
                 $q['Score'],
-                $choices             
+                $choices
             );
         }
 
