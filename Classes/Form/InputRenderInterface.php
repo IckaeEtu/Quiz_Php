@@ -1,5 +1,5 @@
 <?php
-namespace Form;
+namespace Classes\Form;
 
 interface InputRenderInterface {
     public function render();

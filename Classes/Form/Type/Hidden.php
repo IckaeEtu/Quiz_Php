@@ -1,9 +1,10 @@
 <?php
-namespace Form\Type;
+namespace Classes\Form\Type;
 
-use Form\Type\Input;
+use Classes\Form\Type\Input;
 
-final class Hidden extends Input {
+final class Hidden extends Input
+{
     protected string $type = "hidden";
 }
 ?>

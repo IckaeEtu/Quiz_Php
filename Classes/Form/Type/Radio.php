@@ -1,7 +1,7 @@
 <?php
-namespace Form\Type;
+namespace Classes\Form\Type;
 
-use Form\GenericFormElement;
+use Classes\Form\GenericFormElement;
 
 class Radio extends GenericFormElement
 {

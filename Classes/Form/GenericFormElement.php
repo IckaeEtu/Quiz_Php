@@ -1,7 +1,7 @@
 <?php
-namespace Form;
+namespace Classes\Form;
 
-use Form\InputRenderInterface;
+use Classes\Form\InputRenderInterface;
 
 abstract class GenericFormElement implements InputRenderInterface // Le mot clé abstract permet d'empécher l'instanciation de cette class
 {
@@ -39,6 +39,10 @@ abstract class GenericFormElement implements InputRenderInterface // Le mot clé
 
     public function getName(): string {
         return $this->name;
+    }
+
+    public function setValue($value) {
+        $this->value = $value;
     }
 }
 ?>

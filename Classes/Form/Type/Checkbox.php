@@ -1,14 +1,14 @@
 <?php
-namespace Form\Type;
+namespace Classes\Form\Type;
 
-use Form\Type\Input;
+use Classes\Form\Type\Input;
 
 final class Checkbox extends Input {
     protected string $type = "checkbox";
 
     public function render() {
         return sprintf(
-            '<input type="%s" %s value="%s" name="form[%s]" %s />',
+            '<input type="%s" %s value="%s" name="%s[]" %s />',
             $this->type,
             $this->isRequired() ? 'required="required"' : '',
             $this->getValue(),

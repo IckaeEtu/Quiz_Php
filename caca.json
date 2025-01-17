@@ -1,0 +1,98 @@
+[
+    {
+      "quiz_name": "Culture Générale",
+      "questions": [
+        {
+          "name": "Capitale de la France",
+          "type": "text",
+          "reponses": "",
+          "reponse_correcte": "Paris",
+          "score": 1
+        },
+        {
+          "name": "Couleur du drapeau français",
+          "type": "checkbox",
+          "reponses": "Bleu;Blanc;Rouge;Vert",
+          "reponse_correcte": "Bleu;Blanc;Rouge",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "quiz_name": "Histoire",
+      "questions": [
+        {
+          "name": "Année de la Révolution Française",
+          "type": "text",
+          "reponses": "",
+          "reponse_correcte": "1789",
+          "score": 1
+        },
+        {
+          "name": "Roi assassiné en 1610",
+          "type": "radio",
+          "reponses": "Louis XIV;Henri IV;Charles IX",
+          "reponse_correcte": "Henri IV",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "quiz_name": "Sciences",
+      "questions": [
+        {
+          "name": "Formule de l'eau",
+          "type": "text",
+          "reponses": "",
+          "reponse_correcte": "H2O",
+          "score": 1
+        },
+        {
+          "name": "Planète la plus proche du soleil",
+          "type": "radio",
+          "reponses": "Vénus;Terre;Mercure",
+          "reponse_correcte": "Mercure",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "quiz_name": "Mathématiques",
+      "questions": [
+        {
+          "name": "Résultat de 7 x 8",
+          "type": "text",
+          "reponses": "",
+          "reponse_correcte": "56",
+          "score": 1
+        },
+        {
+          "name": "Quelle est une figure géométrique ?",
+          "type": "checkbox",
+          "reponses": "Cercle;Triangle;Étoile;Éclair",
+          "reponse_correcte": "Cercle;Triangle",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "quiz_name": "Littérature",
+      "questions": [
+        {
+          "name": "Auteur des Misérables",
+          "type": "text",
+          "reponses": "",
+          "reponse_correcte": "Victor Hugo",
+          "score": 1
+        },
+        {
+          "name": "Personnage principal de Don Quichotte",
+          "type": "radio",
+          "reponses": "Don Quichotte;Sancho Panza;Rocinante",
+          "reponse_correcte": "Don Quichotte",
+          "score": 2
+        }
+      ]
+    }
+  ]
+  
